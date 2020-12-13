@@ -43,8 +43,6 @@ func main() {
 	log.Printf("Trial 5: %v", trial5)
 
 	log.Printf("%v * %v * %v * %v * %v = %v", trial1, trial2, trial3, trial4, trial5, trial1*trial2*trial3*trial4*trial5)
-
-	//log.Printf("%v trees hit. Current position: [%v, %v]", treesHit, sledMap.Cursor.X, sledMap.Cursor.Y)
 }
 
 type Position struct {
